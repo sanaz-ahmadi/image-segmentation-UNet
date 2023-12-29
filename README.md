@@ -9,20 +9,31 @@
 
 
 ### steps followed by the code:
+<ul>
+  <li>1- Load and Split the Data:
+    <ul>
+      <li>Split the dataset into Unmasked and Masked Images</li>
+      <li>Preprocess the Data</li>
+    </ul>
+  </li>
+  <li>2- U-Net:
+     <ul>
+      <li>Encoder (Downsampling Block) --> conv_block</li>
+      <li>Decoder (Upsampling Block) --> upsampling_block</li>
+      <li>Build the Model --> unet_model</li>
+      <li>Set Model Dimension</li>
+      <li>Loss Function</li>
+      <li>Dataset Handling</li>
+    </ul>
+  </li>
+  <li>Train the Model:
+    <ul>
+      <li>Create Predicted Masks</li>
+      <li>Plot Model Accuracy</li>
+      <li>Show Predictions</li>
+    </ul>
+  </li>
+</ul>
 
-1- Load and Split the Data:
-    - Split the dataset into Unmasked and Masked Images
-    - Preprocess the Data
-2- U-Net:
-    - Encoder (Downsampling Block) --> conv_block
-    - Decoder (Upsampling Block) --> upsampling_block
-    - Build the Model --> unet_model
-    - Set Model Dimension
-    - Loss Function
-    - Dataset Handling
-3- Train the Model:
-    - Create Predicted Masks
-    - Plot Model Accuracy
-    - Show Predictions
 
 
